@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <PackageId>EventFlow.Cap</PackageId>
+        <Title>EventFlow.Cap</Title>
+        <Authors>Dmytro Rakhmanov</Authors>
+        <Description>Cap integration for EventFlow</Description>
+        <PackageTags>CQRS ES event sourcing Cap integrtion</PackageTags>
+        <PackageReleaseNotes>UPDATED BY BUILD</PackageReleaseNotes>
+        <IsPackable>true</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DotNetCore.CAP" Version="7.2.0" />
+        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\EventFlow\EventFlow.csproj" />
+    </ItemGroup>
+
+
+</Project>
